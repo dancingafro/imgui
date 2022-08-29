@@ -25,6 +25,10 @@ ipch
 *.suo
 *.VC.db
 *.VC.VC.opendb
+**.sln
+**.vcxproj
+**.vcxproj.filters
+**.vcxproj.user
 
 ## Commonly used CMake directories
 /build*/
@@ -51,3 +55,9 @@ examples/example_glut_opengl2/example_glut_opengl2
 examples/example_null/example_null
 examples/example_sdl_opengl2/example_sdl_opengl2
 examples/example_sdl_opengl3/example_sdl_opengl3
+bin-int/
+bin/
+ImGui.vcxproj
+*.vcxproj
+*.filters
+*.sln
